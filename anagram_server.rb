@@ -36,9 +36,9 @@ post "/add_anagram" do
 		
 		redirect "/"
 	else
-		flash.next[:error] = "Sorry, those words aren't anagrams! <a href='/add_anagram'>Add Anagram Pair</a>"
-		flash[:error]
-		# redirect "/anagram_error"
+		# flash.next[:error] = "Sorry, those words aren't anagrams! <a href='/add_anagram'>Add Anagram Pair</a>"
+		# flash[:error]
+		redirect "/anagram_error"
 	end
 end
 
