@@ -24,6 +24,7 @@ GEM
     minitest (5.4.3)
     multi_json (1.10.1)
     mustache (0.99.8)
+    pg (0.17.1)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -56,6 +57,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   mustache
+  pg
   pry
   sinatra
   sinatra-contrib
