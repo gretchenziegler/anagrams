@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Anagram Fun</title>
+</head>
+
+<body align='center'>
+	<h1>All Anagrams, All the Time</h1>
+	<table border='1' style='width:100%'>
+		{{#anagrams}}
+		<tr>
+			<td>{{word_one}}</td>
+			<td>{{word_two}}</td>
+		</tr>
+		{{/anagrams}}
+	</table>
+	<br><br>
+	<h2><a href='/add_anagram'>Add New Anagram Pair</a></h2>
+
+</body>
+
+</html>
